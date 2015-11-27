@@ -59,7 +59,7 @@
 	<section name="RenameInformationPopup">
 	</section>
 	<section name="ClasspathContainerSelectionPage">
-		<item value="3" key="index"/>
+		<item value="0" key="index"/>
 	</section>
 	<section name="BuildPathsPropertyPage">
 		<item value="3" key="pageIndex"/>
@@ -70,6 +70,8 @@
 		<item value="615" key="DIALOG_HEIGHT"/>
 		<item value="660" key="DIALOG_X_ORIGIN"/>
 		<item value="118" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="completion_proposal_size">
 	</section>
