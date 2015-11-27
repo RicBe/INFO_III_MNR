@@ -1,0 +1,12 @@
+1446801130892	Move compilation unit
+1446801679425	Encapsulate field 'x'
+1446803550715	Encapsulate field 'name'
+1446803565826	Encapsulate field 'stepID'
+1446803831954	Encapsulate field 'hwAddress'
+1446803894677	Encapsulate field 'degree'
+1446803945959	Encapsulate field 'speed'
+1446803959085	Encapsulate field 'duration'
+1446804035988	Encapsulate field 'jumpAddress'
+1446804040886	Encapsulate field 'nrRepititions'
+1446810093183	Encapsulate field 'duration'
+1446814255149	Delete element

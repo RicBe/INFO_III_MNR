@@ -1,0 +1,24 @@
+package meinPackage;
+import java.util.Vector;
+
+/**
+ * Zentralverwaltung welche die beiden Listen prototypen und controlprocess
+ * @author wuestema
+ *
+ */
+public class ControlModel {
+	private Vector prototypen;
+	private Vector controlprocess;
+	
+	
+	
+	
+	public createPrototypen(){
+		
+	}
+	
+	
+	
+	
+	
+}

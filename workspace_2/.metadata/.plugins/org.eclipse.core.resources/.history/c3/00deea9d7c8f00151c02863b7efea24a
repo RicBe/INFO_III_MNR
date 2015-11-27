@@ -1,0 +1,62 @@
+package meinPackage;
+
+
+public class Gear extends Movement {
+	private int speed;
+	private int duration;
+	
+	
+	public Gear(int speed,String hwAddress,int stepID){
+		super(hwAddress,"Gear",stepID);
+		this.speed=speed;
+	}
+
+	
+	public void setSpeed(int speed) {
+		this.speed = speed;
+	}
+	
+	
+	public int getSpeed() {
+		return speed;
+	}
+
+	
+	public void setDuration(int duration) {
+		this.duration = duration;
+	}
+
+	
+	public int getDuration() {
+		return duration;
+	}
+	
+	
+/**
+ * überschreibug der "toString" funktion
+ */
+	public String toString() {
+		return "Gear [speed=" + speed + ", duration=" + duration + "]";
+	}
+	
+	/**
+	 * überschreibung von equals-befehl
+	 */
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (!super.equals(obj))
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Gear other = (Gear) obj;
+		if (duration != other.duration)
+			return false;
+		if (speed != other.speed)
+			return false;
+		return true;
+
+	}
+	
+	
+}

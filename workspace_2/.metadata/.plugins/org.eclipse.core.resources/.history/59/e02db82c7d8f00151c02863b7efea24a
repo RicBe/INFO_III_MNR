@@ -1,0 +1,43 @@
+package meinPackage;
+
+public class Direction extends Movement {
+	private int degree;
+	
+	public Direction(int degree, String hwAddress,int stepID){
+		super(hwAddress,"Direction" , stepID);
+		this.degree=degree;
+		//System.out.println("hallo");
+		//System.out.println(this.getClass().getSimpleName());
+	}
+	
+	public Direction(){
+		super("Direction")
+	}
+
+	public void setDegree(int degree) {
+		this.degree = degree;
+	}
+
+	public int getDegree() {
+		return degree;
+	}
+
+	public String toString() {
+		return "Direction [degree=" + degree + "]";
+	}
+
+
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (!super.equals(obj))
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Direction other = (Direction) obj;
+		if (degree != other.degree)
+			return false;
+		return true;
+	}
+	
+}
